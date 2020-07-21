@@ -1,4 +1,4 @@
-var playlist= {"My Bloody Valentine":"Special TV Offer"}
+var playlist= new Object({"My Bloody Valentine":"Special TV Offer"})
 function updatePlaylist(p,a,s){
   p=Object.assign({},p,{[a]:s})
   console.log(p)
